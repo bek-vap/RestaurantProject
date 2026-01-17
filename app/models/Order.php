@@ -33,3 +33,15 @@ function saveOrder($user_id, $user_name, $dish_name) {
     $stmt->close();
     return true;  // Indicate success
 }
+
+function deleteOrder($id)
+{
+    $db = db();
+    $stmt = $db->prepare("DELETE FROM orders WHERE id = ?");
+    if (!$stmt) {
+        die("Prepare error: " . $db->error);
+    }
+
+    $stmt->bind_param("i", $id);
+    $stmt->execute();
+}
