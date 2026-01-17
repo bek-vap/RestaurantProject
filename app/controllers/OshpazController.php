@@ -8,5 +8,5 @@ function oshpazIndex(): void
 
     // View
     require __DIR__ . '/../views/layouts/header.php';
-    require __DIR__ . '/../views/oshpaz/index.php';
+    require __DIR__ . '/../views/layouts/oshpaz/index.php';
 }

@@ -47,5 +47,5 @@ function userIndex(): void
 
     // View
     require __DIR__ . '/../views/layouts/header.php';
-    require __DIR__ . '/../views/user/index.php';
+    require __DIR__ . '/../views/layouts/user/index.php';
 }

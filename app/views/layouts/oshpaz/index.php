@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 // $orders = mysqli_result bo'ladi (Order modeldan keladi)
 ?>
@@ -65,16 +65,3 @@
     </div>
   </div>
 </div>
-require_once __DIR__ . '/../models/Order.php';
-
-function oshpazIndex(): void
-{
-    // Buyurtmalarni DBdan olamiz
-    $orders = getOrders(); // mysqli_result
-
-    // View
-    require __DIR__ . '/../views/layouts/header.php';
-    require __DIR__ . '/../views/oshpaz/index.php';
-}
-=======
->>>>>>> 4cd76c7fd11fba067c708f44542d0302d3cec930
