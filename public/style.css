@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #020617;
+    padding: 15px 40px;
+    box-shadow: 0 0 20px black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+
+.menu a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background: orange;
+    color: black;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 32px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 25px;
+    padding: 20px 40px;
+}
+
+/* CARD */
+.card {
+    background: #020617;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 20px black;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+
+/* IMAGE */
+.img-box {
+    height: 180px;
+    overflow: hidden;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.card:hover img {
+    transform: scale(1.2);
+}
+
+/* BUTTON */
+.order-btn {
+    margin: 15px 0 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(45deg, orange, red);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.order-btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px orange;
+}
+
+/* ===== Oshpaz Page UI ===== */
+.page {
+    padding: 24px 24px 40px
+}
+
+.page-head {
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 18px
+}
+
+.page-title {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: .2px
+}
+
+.page-subtitle {
+    margin: 6px 0 0;
+    color: rgba(255, 255, 255, .75)
+}
+
+.page-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .25s
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, orange, red);
+    color: #0b1220
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 18px rgba(255, 165, 0, .45)
+}
+
+.btn-outline {
+    border: 1px solid rgba(255, 255, 255, .18);
+    color: #fff;
+    background: rgba(2, 6, 23, .6)
+}
+
+.btn-outline:hover {
+    background: rgba(255, 255, 255, .08);
+    transform: translateY(-2px)
+}
+
+.card-table {
+    background: #020617;
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, .45)
+}
+
+.table-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, .08)
+}
+
+.badge {
+    display: inline-flex;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(255, 165, 0, .12);
+    color: orange;
+    font-weight: 800
+}
+
+.hint {
+    color: rgba(255, 255, 255, .65);
+    font-size: 13px
+}
+
+.table-wrap {
+    overflow: auto
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 820px
+}
+
+.table thead th {
+    position: sticky;
+    top: 0;
+    background: #020617;
+    color: rgba(255, 255, 255, .85);
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: .3px;
+    padding: 12px 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, .08)
+}
+
+.table tbody td {
+    padding: 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, .06);
+    color: rgba(255, 255, 255, .9)
+}
+
+.table tbody tr:hover {
+    background: rgba(255, 255, 255, .04)
+}
+
+.empty {
+    text-align: center;
+    color: rgba(255, 255, 255, .7);
+    padding: 24px !important
+}
+
+.user-cell {
+    display: flex;
+    gap: 12px;
+    align-items: center
+}
+
+.avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .08);
+    font-weight: 900;
+    color: orange
+}
+
+.user-name {
+    font-weight: 800
+}
+
+.user-small {
+    color: rgba(255, 255, 255, .65);
+    font-size: 12px;
+    margin-top: 2px
+}
+
+.pill {
+    display: inline-flex;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(0, 255, 163, .10);
+    border: 1px solid rgba(0, 255, 163, .18);
+    color: #a7f3d0;
+    font-weight: 800
+}
+
+.mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+
+.btn-done {
+    background: linear-gradient(45deg, #22c55e, #16a34a);
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-done:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(34,197,94,.6);
+}
