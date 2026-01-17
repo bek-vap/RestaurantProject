@@ -19,59 +19,65 @@ $data = [
 ],
 
 "fastfood" => [
-["name"=>"Burger", "price"=>30000, "image"=>"data:image/jpeg;base64,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
+["name"=>"Burger", "price"=>30000, "image"=>"https://www.foodandwine.com/thmb/XE8ubzwObCIgMw7qJ9CsqUZocNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSG-Smash-Burger-FT-RECIPE0124-d9682401f3554ef683e24311abdf342b.jpg"],
+["name"=>"Cheeseburger", "price"=>32000, "image" => "https://iamhomesteader.com/wp-content/uploads/2024/02/grilled-cheese-burger-6-500x500.jpg"],
+["name"=>"Pizza", "price"=>40000, "image"=>"https://assets.surlatable.com/m/15a89c2d9c6c1345/72_dpi_webp-REC-283110_Pizza-jpg
 "],
-["name"=>"Cheeseburger", "price"=>32000, "image"=>"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
+["name"=>"Hot Dog", "price"=>20000, "image"=>"https://www.belbrandsfoodservice.com/wp-content/uploads/2018/05/recipe-desktop-merkts-cheesy-hot-dawg.jpg
 "],
-["name"=>"Pizza", "price"=>40000, "image"=>"    "],
-["name"=>"Hot Dog", "price"=>20000, "image"=>"https://www.organicvalley.coop/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F5dqbssss%2Fproduction-v3%2Fbb247675bfb22d01f3c9c7bad111bfa39ae54a5e-1356x1576.jpg&w=3840&q=75"],
-["name"=>"Fries", "price"=>15000, "image"=>"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Z7uvK5fm2fOdR3mVMRxuru203fHSP7-xJQ&s
+["name"=>"Fries", "price"=>15000, "image"=>"https://whisperofyum.com/wp-content/uploads/2024/10/whisper-of-yum-homemade-french-fries.jpg
 "],
-["name"=>"Nuggets", "price"=>18000, "image"=>"https://www.sargento.com/assets/Uploads/Recipe/Image/burger_0__FocusFillWyIwLjAwIiwiMC4wMCIsODAwLDQ3OF0_CompressedW10.jpg
+["name"=>"Nuggets", "price"=>18000, "image"=>"https://www.allrecipes.com/thmb/Dw_WFOvCds43ksPxkrE60qxcwSk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-8849-HomemadeChickenNuggets-beauty-4x3-ca915ee936054272af1b506181923c7f.jpg
 "],
-["name"=>"Taco", "price"=>23000, "image"=>"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrgh6Xx8CBnZM8NPOmIEOwqV_KK6PnE1pluA&s
+["name"=>"Taco", "price"=>23000, "image"=>"https://www.thecookingtwins.com/wp-content/uploads/2025/09/authentic-mexican-ground-beef-taco-recipe-featured.webp
 "],
-["name"=>"Wrap", "price"=>25000, "image"=>"https://www.belbrandsfoodservice.com/wp-content/uploads/2018/05/recipe-desktop-merkts-cheesy-hot-dawg.jpg
+["name"=>"Wrap", "price"=>25000, "image"=>"https://www.eatingwell.com/thmb/VGO8oogsJW5ZY6AsJuxYJinzeIo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6218817-d9131d523b484b5ca13b6aeb81adb90d.jpg
 "],
-["name"=>"Doner", "price"=>28000, "image"=>"https://www.recipetineats.com/tachyon/2022/09/Crispy-Fries_8.jpg
+["name"=>"Doner", "price"=>28000, "image"=>"https://imageproxy.wolt.com/assets/67335e2718b8c2487381db68
 "],
-["name"=>"Panini", "price"=>26000, "image"=>"https://www.allrecipes.com/thmb/Dw_WFOvCds43ksPxkrE60qxcwSk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-8849-HomemadeChickenNuggets-beauty-4x3-ca915ee936054272af1b506181923c7f.jpg
+["name"=>"Panini", "price"=>26000, "image"=>"https://bydash.com/cdn/shop/articles/20241003170904-chicken-2c-20mozzarella-2c-20-26-20kale-20pesto-20panini.jpg?v=1750275694
 "],
-["name"=>"Chicken Burger", "price"=>31000, "image"=>"https://www.thecookingtwins.com/wp-content/uploads/2025/09/authentic-mexican-ground-beef-taco-recipe-featured.webp
+["name"=>"Chicken Burger", "price"=>31000, "image"=>"https://i0.wp.com/flaevor.com/wp-content/uploads/2022/04/SambalFriedChickenBurger1.jpg?resize=1024%2C830&ssl=1
 "],
-["name"=>"Loaded Fries", "price"=>20000, "image"=>"https://www.eatingwell.com/thmb/M9S94z7BZWW9_cXtnPNTNo1kASw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EW-Veggie-Wrap-hero-3x2-15191_preview_maxWidth_4000_maxHeight_4000_ppi_300_quality_100-0b87ab0f62f94d5abc080a2e9d7bd3be.jpg
+["name"=>"Loaded Fries", "price"=>20000, "image"=>"https://therecipecritic.com/wp-content/uploads/2023/02/loaded-fries-4.jpg
 "],
 ],
 
 "desserts" => [
-["name"=>"Cake", "price"=>20000, "image"=>"https://source.unsplash.com/400x300/?cake"],
-["name"=>"Chocolate Cake", "price"=>23000, "image"=>"https://source.unsplash.com/400x300/?chocolatecake"],
-["name"=>"Ice Cream", "price"=>15000, "image"=>"https://source.unsplash.com/400x300/?icecream"],
-["name"=>"Cupcake", "price"=>12000, "image"=>"https://source.unsplash.com/400x300/?cupcake"],
-["name"=>"Donut", "price"=>10000, "image"=>"https://source.unsplash.com/400x300/?donut"],
-["name"=>"Pancake", "price"=>18000, "image"=>"https://source.unsplash.com/400x300/?pancake"],
-["name"=>"Waffle", "price"=>19000, "image"=>"https://source.unsplash.com/400x300/?waffle"],
-["name"=>"Cheesecake", "price"=>24000, "image"=>"https://source.unsplash.com/400x300/?cheesecake"],
-["name"=>"Brownie", "price"=>17000, "image"=>"https://source.unsplash.com/400x300/?brownie"],
-["name"=>"Macaron", "price"=>22000, "image"=>"https://source.unsplash.com/400x300/?macaron"],
-["name"=>"Fruit Tart", "price"=>21000, "image"=>"https://source.unsplash.com/400x300/?tart"],
-["name"=>"Milk Dessert", "price"=>16000, "image"=>"https://source.unsplash.com/400x300/?pudding"],
+["name"=>"Cake", "price"=>20000, "image"=>"https://recipesblob.oetker.ca/assets/b75297c3976e41a39cf3e74376d1459a/360x400/birthday-cake-11.webp
+"],
+["name"=>"Chocolate Cake", "price"=>23000, "image"=>"https://sugargeekshow.com/wp-content/uploads/2023/10/easy_chocolate_cake_slice.jpg"],
+["name"=>"Ice Cream", "price"=>15000, "image"=>"https://upload.wikimedia.org/wikipedia/commons/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg
+"],
+["name"=>"Cupcake", "price"=>12000, "image"=>"https://sugargeekshow.com/wp-content/uploads/2022/08/vanilla_cupcake_featured_blog.jpg
+"],
+["name"=>"Donut", "price"=>10000, "image" => "https://sugargeekshow.com/wp-content/uploads/2020/10/baked_donut_recipe_featured.jpg
+"],
+["name"=>"Pancake", "price"=>18000, "image"=>"https://www.marthastewart.com/thmb/Vgb9cQSlegZz5fcoSbkkqyHPmHY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/338185-basic-pancakes-09-00b18f8418fd4e52bb2050173d083d04.jpg
+"],
+["name"=>"Waffle", "price"=>19000, "image"=>"https://www.allrecipes.com/thmb/XTGwMTd_WsxOpc2mwSkQ5qSsyJE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/22180-waffles-i-VAT-014-4x3-5f571d8bec65423f9bda82b0a6d883f6.jpg"],
+["name"=>"Cheesecake", "price"=>24000, "image"=>"https://www.jocooks.com/wp-content/uploads/2018/11/cheesecake-1-22.jpg"],
+["name"=>"Brownie", "price"=>17000, "image"=>"https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/3425045A-61C4-425A-A3BC-12D292FF2889/Derivates/8E21A1C1-5422-489D-AD16-D44D0E72FD0A.jpg"],
+["name"=>"Macaron", "price"=>22000, "image"=>"https://sugargeekshow.com/wp-content/uploads/2022/12/italian_macaron_Featured.jpg"],
+["name"=>"Fruit Tart", "price"=>21000, "image"=>"https://hips.hearstapps.com/hmg-prod/images/fruit-tart-recipe-3-1650464619.jpg?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*"],
+["name"=>"Milk Dessert", "price"=>16000, "image"=>"https://www.lathiskitchen.org/wp-content/uploads/2024/12/Milk-pudding-8-500x500.jpg"],
 ],
 
 "drinks" => [
-["name"=>"Cola", "price"=>10000, "image"=>"https://source.unsplash.com/400x300/?cola"],
-["name"=>"Pepsi", "price"=>10000, "image"=>"https://source.unsplash.com/400x300/?pepsi"],
-["name"=>"Orange Juice", "price"=>12000, "image"=>"https://source.unsplash.com/400x300/?orangejuice"],
-["name"=>"Lemonade", "price"=>11000, "image"=>"https://source.unsplash.com/400x300/?lemonade"],
-["name"=>"Milkshake", "price"=>15000, "image"=>"https://source.unsplash.com/400x300/?milkshake"],
-["name"=>"Coffee", "price"=>14000, "image"=>"https://source.unsplash.com/400x300/?coffee"],
-["name"=>"Tea", "price"=>8000, "image"=>"https://source.unsplash.com/400x300/?tea"],
-["name"=>"Iced Tea", "price"=>10000, "image"=>"https://source.unsplash.com/400x300/?icedtea"],
-["name"=>"Smoothie", "price"=>16000, "image"=>"https://source.unsplash.com/400x300/?smoothie"],
-["name"=>"Energy Drink", "price"=>18000, "image"=>"https://source.unsplash.com/400x300/?energydrink"],
-["name"=>"Mineral Water", "price"=>6000, "image"=>"https://source.unsplash.com/400x300/?water"],
-["name"=>"Hot Chocolate", "price"=>17000, "image"=>"https://source.unsplash.com/400x300/?hotchocolate"],
+["name"=>"Cola", "price"=>10000, "image"=>"https://images.uzum.uz/cia493tenntd8rfc2s40/original.jpg"],
+["name"=>"Pepsi", "price"=>10000, "image"=>"https://dostavo4ka.uz/upload-file/2021/05/05/4977/750x750-44d00abe-766c-4b92-aedb-4840c48637bb.jpg"],
+["name"=>"Orange Juice", "price"=>12000, "image"=>"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_k3dmXxGhAIYtpo1VDWy8SJi30wQqJ5J9Ig&s"],
+["name"=>"Lemonade", "price"=>11000, "image"=>"https://images.squarespace-cdn.com/content/v1/5ed13dd3465af021e2c1342b/a5b1e544-ee89-4268-b9af-ab49e9cc7006/IMG_1986+%281%29.jpg"],
+["name"=>"Milkshake", "price"=>15000, "image"=>"https://assets.epicurious.com/photos/647df8cad9749492c4d5d407/1:1/w_4506,h_4506,c_limit/StrawberryMilkshake_RECIPE_053123_3599.jpg"],
+["name"=>"Coffee", "price"=>14000, "image"=>"https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg"],
+["name"=>"Tea", "price"=>8000, "image"=>"https://www.aicr.org/wp-content/uploads/2020/06/peppermint-tea-on-teacup-1417945.jpg"],
+["name"=>"Iced Tea", "price"=>10000, "image"=>"https://images.themodernproper.com/production/posts/IcedTea_8.jpg?w=1200&h=1200&q=60&fm=jpg&fit=crop&dm=1716306653&s=c90f7e692cdb1be094a755889d901bb8"],
+["name"=>"Smoothie", "price"=>16000, "image"=>"https://static01.nyt.com/images/2025/02/25/multimedia/Strawberry-Smoothie-cqzb/Strawberry-Smoothie-cqzb-mediumSquareAt3X.jpg"],
+["name"=>"Energy Drink", "price"=>18000, "image"=>"https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Monster_Energy_drink_%28cropped%29.jpg/960px-Monster_Energy_drink_%28cropped%29.jpg"],
+["name"=>"Mineral Water", "price"=>6000, "image"=>"https://miizu.my/image/digitalgrocer/image/cache/data/all_product_images/product-204/3%20new-1080x1080.png"],
+["name"=>"Hot Chocolate", "price"=>17000, "image"=>"https://www.foodandwine.com/thmb/V1OEgtLQGUv_w2Fvm40WMLsJ4rk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Indulgent-Hot-Chocolate-FT-RECIPE0223-fd36942ef266417ab40440374fc76a15.jpg"],
 ]
+
 
 ];
 
