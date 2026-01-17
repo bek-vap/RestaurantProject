@@ -16,3 +16,5 @@
   </div>
 <?php endforeach; ?>
 </div>
+
+// End of file app/views/layouts/user/index.php
